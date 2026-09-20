@@ -1,0 +1,21 @@
+exam-software/
+├── .github/
+│   └── workflows/
+│       └── build-exe.yml          ← Ye main file hai
+├── main.py
+├── database.py
+├── requirements.txt
+├── admin/
+│   ├── __init__.py
+│   ├── admin_login.py
+│   ├── admin_dashboard.py
+│   ├── manage_students.py
+│   ├── manage_questions.py
+│   └── view_results.py
+├── student/
+│   ├── __init__.py
+│   ├── student_login.py
+│   ├── exam_window.py
+│   └── result_window.py
+└── assets/
+    └── .gitkeep
